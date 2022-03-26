@@ -407,7 +407,7 @@ header.shadow {
 /* Making Responsive */
 @media (max-width: 970px) {
   .logo img {
-    width: 10%;
+    width: 8%;
   }
   .container {
     margin: 0 auto;
@@ -415,9 +415,7 @@ header.shadow {
   }
 }
 @media (max-width: 768px) {
-  .logo img {
-    width: 8%;
-  }
+  
   section {
     padding: 3rem 0 2rem;
   }
@@ -482,7 +480,9 @@ header.shadow {
   }
 }
 @media (max-width: 650px) {
-  
+  .logo img {
+    width: 11%;
+  }
   .hero {
     width: 90%;
     max-width: 600px;
@@ -506,7 +506,7 @@ header.shadow {
 }
 @media (max-width: 440px) {
   .logo img {
-    width: 13%;
+    width: 12%;
   }
   .hero {
     padding: 4rem 0 0;
