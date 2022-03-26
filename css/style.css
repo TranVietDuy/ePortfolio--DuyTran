@@ -73,7 +73,7 @@ header.shadow {
   margin: 0 auto 0 0;
 }
 .logo img {
-  width: 7%;
+  width: 8%;
 }
 .dark-theme .logo img {
   filter: invert(1);
@@ -406,9 +406,6 @@ header.shadow {
 
 /* Making Responsive */
 @media (max-width: 970px) {
-  .logo img {
-    width: 8%;
-  }
   .container {
     margin: 0 auto;
     width: 90%;
