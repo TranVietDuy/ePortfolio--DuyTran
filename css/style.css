@@ -406,12 +406,18 @@ header.shadow {
 
 /* Making Responsive */
 @media (max-width: 970px) {
+  .logo img {
+    width: 10%;
+  }
   .container {
     margin: 0 auto;
     width: 90%;
   }
 }
 @media (max-width: 768px) {
+  .logo img {
+    width: 8%;
+  }
   section {
     padding: 3rem 0 2rem;
   }
@@ -476,6 +482,7 @@ header.shadow {
   }
 }
 @media (max-width: 650px) {
+  
   .hero {
     width: 90%;
     max-width: 600px;
